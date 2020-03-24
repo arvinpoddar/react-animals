@@ -1,0 +1,25 @@
+@import url("./animation.css");
+
+.v-animal-avatar {
+  height: var(--a-size);
+  width: var(--a-size);
+  border-radius: var(--a-border-radius);
+  background-color: var(--a-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.v-animal-image {
+  width: 80%;
+  height: 80%;
+  user-select: none;
+}
+
+.v-animal-dance {
+  -webkit-animation: v-a-dance 2s infinite;
+  -moz-animation: v-a-dance 2s infinite;
+  animation: v-a-dance 2s infinite;
+}
