@@ -1,6 +1,6 @@
 {
     "name": "react-animals",
-    "version": "0.0.8",
+    "version": "0.0.81",
     "description": "A customizable animal avatar React component, based on the avatars used by Google Docs.",
     "main": "build/index.js",
     "unpkg": "build/index.js",
